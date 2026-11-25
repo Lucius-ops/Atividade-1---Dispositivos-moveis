@@ -1,5 +1,6 @@
 import Exercicio1 from "@/components/Exercicio1";
 import Exercicio2 from "@/components/Exercicio2";
+import Exercicio3 from "@/components/Exercicio3";
 import { useState } from "react";
 import { Keyboard, Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";

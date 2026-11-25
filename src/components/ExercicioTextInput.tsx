@@ -60,9 +60,12 @@ export default function ExercicioTextInput() {
                 onChangeText={(texto) => alterarPreco(texto)}
                 value={texto} />
 
-                <textInput
-                    
-        </View>
+<TextInput
+  style={styles.campo_texto}
+  value={texto}
+  onChangeText={setTexto}
+/>
+</View>
     )
 }
 
