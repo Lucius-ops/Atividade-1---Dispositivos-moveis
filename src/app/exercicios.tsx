@@ -1,6 +1,10 @@
 import Exercicio1 from "@/components/Exercicio1";
 import Exercicio2 from "@/components/Exercicio2";
 import Exercicio3 from "@/components/Exercicio3";
+import Exercicio4_1 from "@/components/Exercicio4_1";
+import Exercicio4_2 from "@/components/Exercicio4_2";
+import Exercicio4_3 from "@/components/Exercicio4_3";
+import Exercicio4_4 from "@/components/Exercicio4_4";
 import { useState } from "react";
 import { Keyboard, Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
@@ -10,6 +14,10 @@ const EXERCICIOS = [
     { nome: 'Exercício 1', Componente: Exercicio1 },
     { nome: 'Exercício 2', Componente: Exercicio2 },
     { nome: 'Exercício 3', Componente: Exercicio3 },
+    { nome: 'Exercicio4_1', Componente: Exercicio4_1 },
+    { nome: 'Exercicio4_2', Componente: Exercicio4_2 },
+    { nome: 'Exercicio4_3', Componente: Exercicio4_3 },
+    { nome: 'Exercicio4_4', Componente: Exercicio4_4 },
 ];
 
 export default function Exercicios() {

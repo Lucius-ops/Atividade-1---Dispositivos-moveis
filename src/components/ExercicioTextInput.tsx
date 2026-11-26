@@ -61,7 +61,7 @@ export default function ExercicioTextInput() {
                 value={texto} />
 
 <TextInput
-  style={styles.campo_texto}
+  style={styles.campo_Texto}
   value={texto}
   onChangeText={setTexto}
 />
